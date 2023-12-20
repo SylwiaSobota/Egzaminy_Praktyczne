@@ -18,6 +18,7 @@
 				$passwd="";
 				$dbname="komis";
 				$polaczenie=mysqli_connect($host,$user,$passwd,$dbname);
+				//$polaczenie = mysqli_connect("localhost", "root","", "komis")
 				$sql="SELECT id,marka,model FROM samochody;";
 				$wynik=mysqli_query($polaczenie,$sql);
 				while($wiersz=mysqli_fetch_assoc($wynik))
