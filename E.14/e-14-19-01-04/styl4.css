@@ -1,0 +1,15 @@
+* {
+    font-family: 'Arial';
+}
+div#logo {
+    background-color: rgb(162,117,87);
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+div#menu {
+    background-color: rgb(162,117,87);
+    width: 80%;
+    height: 100px;
+    float: left;
+}
